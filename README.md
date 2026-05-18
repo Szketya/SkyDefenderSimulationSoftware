@@ -191,8 +191,6 @@ The application will:
 
 ---
 
----
-
 ### 3.3 When to use APPLY DCS CONFIG
 
 The **APPLY DCS CONFIG** function does **not** need to be run every time.
