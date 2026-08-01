@@ -10,7 +10,7 @@ This manual explains how to connect SkyDefender panels, configure DCS World, and
 
 Windows may ask for permission while installing. After installation, do not use **Run as administrator** for normal use. Different Windows accounts keep separate application settings.
 
-The application checks for updates automatically. If you install an update manually, close SkyDefender first and run the new installer.
+The application downloads stable updates automatically and installs them after you fully exit SkyDefender. If you update manually, exit through **QUIT** or tray **Exit** before running the new installer.
 
 ## 2. Connect a panel
 
@@ -44,10 +44,15 @@ The COM port list refreshes automatically. Saved assignments are kept when a pan
 
 In **DCS CONFIG**, select **SELECT "Saved Games\DCS"** and choose your DCS profile folder.
 
-Common examples are:
+The normal profile is:
 
 ```text
 C:\Users\<your name>\Saved Games\DCS
+```
+
+An older installation may still use:
+
+```text
 C:\Users\<your name>\Saved Games\DCS.openbeta
 ```
 
@@ -205,4 +210,4 @@ If SkyDefender was already uninstalled and DCS still tries to start it, remove t
 Saved Games\DCS\Scripts\Hooks\SkyDefenderAutostart.lua
 ```
 
-Use `DCS.openbeta` or your custom profile name when applicable. The uninstaller does not remove other DCS-side configuration files automatically.
+Use an older `DCS.openbeta` profile or your custom profile name when applicable. The uninstaller does not remove other DCS-side configuration files automatically.

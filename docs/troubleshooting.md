@@ -39,10 +39,15 @@ If the row still shows an X status, copy the related **SYSTEM LOG** message for 
 
 ## The DCS profile path shows a warning
 
-Select the DCS profile folder under Windows Saved Games, normally:
+Select the DCS profile folder under Windows Saved Games. The normal profile is:
 
 ```text
 C:\Users\<your name>\Saved Games\DCS
+```
+
+An older installation may still use:
+
+```text
 C:\Users\<your name>\Saved Games\DCS.openbeta
 ```
 
@@ -64,7 +69,7 @@ Assign the correct F-14 panel type first. The installation selector then appears
 
 You can enable **AUTO REPAIR DCS CONFIG** to restore safe changes removed by later DCS updates.
 
-If SkyDefender says automatic repair is blocked, run the official [DCS repair or cleanup procedure](https://www.digitalcombatsimulator.com/en/support/faq/709/#2463807), then reopen SkyDefender and select **APPLY DCS CONFIG** again.
+If SkyDefender says automatic repair is blocked, run the official [DCS repair or cleanup procedure](https://www.digitalcombatsimulator.com/en/support/faq/repair/), then reopen SkyDefender and select **APPLY DCS CONFIG** again.
 
 ## Legacy F-14 bindings are active
 

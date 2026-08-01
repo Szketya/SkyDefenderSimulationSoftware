@@ -28,7 +28,7 @@ SkyDefender Simulations connects SkyDefender cockpit panels to DCS World on Wind
 
 > Do not use **Run as administrator** for normal use. Running under a different Windows account can make saved settings appear to be missing.
 
-Existing installations can also update automatically when a new release is available.
+Existing installations download stable updates automatically and install them after SkyDefender is fully exited.
 
 ## First setup
 
@@ -36,7 +36,7 @@ Existing installations can also update automatically when a new release is avail
 2. In **COM PORT ASSIGNMENTS**, select **ADD NEW PORT**.
 3. Select the panel's COM port and the matching panel type.
 4. Wait for the row status to confirm the connection.
-5. In **DCS CONFIG**, select your DCS profile, normally `Saved Games\DCS` or `Saved Games\DCS.openbeta`.
+5. In **DCS CONFIG**, select your DCS profile, normally `Saved Games\DCS`. Older installations may still use `Saved Games\DCS.openbeta`.
 6. If you selected an F-14 panel, also select the DCS World installation folder when it appears.
 7. Select **APPLY DCS CONFIG**.
 8. Start DCS World and test the panel in the correct aircraft.
@@ -66,6 +66,8 @@ Start with [Troubleshooting](docs/troubleshooting.md). When contacting support, 
 - what DCS aircraft and profile you use.
 
 ## Legal
+
+See the repository [license](LICENSE) for the software and firmware distribution terms.
 
 SkyDefender Simulations is an independent third-party manufacturer of flight simulator hardware and is not affiliated with, endorsed by, sponsored by, or approved by Eagle Dynamics, Heatblur Simulations, or any aircraft manufacturer.
 

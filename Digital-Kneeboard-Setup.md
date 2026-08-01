@@ -1,4 +1,5 @@
-# Digital Kneeboard Panel  
+# Digital Kneeboard Panel
+
 ## DCS World Secondary Screen Setup Guide
 
 This guide explains how to use the **Digital Kneeboard Panel** as a secondary monitor in **DCS World**, and how to move the built-in DCS kneeboard onto that screen.
@@ -162,7 +163,7 @@ Open this folder:
 C:\Users\<Your Windows User Name>\Saved Games\DCS\Config\
 ```
 
-If you use DCS Open Beta, the folder may be:
+An older DCS installation may still use this profile folder:
 
 ```txt
 C:\Users\<Your Windows User Name>\Saved Games\DCS.openbeta\Config\
@@ -173,6 +174,8 @@ Inside it, create this folder if it does not already exist:
 ```txt
 MonitorSetup
 ```
+
+If Windows has relocated or localized Saved Games, use the `Config` folder inside the DCS profile that your installation actually uses.
 
 The final path should be:
 
@@ -258,7 +261,8 @@ GU_MAIN_VIEWPORT =
 UIMainView = GU_MAIN_VIEWPORT
 ```
 
-> **Do not set the `Center` viewport to the full combined resolution.**  
+> **Do not set the `Center` viewport to the full combined resolution.**
+>
 > The `Center` viewport must only use the main monitor resolution.
 
 ---
@@ -438,17 +442,19 @@ Possible fixes:
 3. Check the Windows display arrangement.
 4. Confirm that the correct monitor profile is selected.
 
-If the DCS menu becomes unusable, reset the graphics settings by editing or deleting:
+If the DCS menu becomes unusable, exit DCS and make a backup copy of:
 
 ```txt
 C:\Users\<Your Windows User Name>\Saved Games\DCS\Config\options.lua
 ```
 
-For DCS Open Beta:
+An older DCS installation may use:
 
 ```txt
 C:\Users\<Your Windows User Name>\Saved Games\DCS.openbeta\Config\options.lua
 ```
+
+Rename the original file to `options.lua.bak`, then start DCS so it creates a new settings file. This resets other DCS options too, so use it only after checking the resolution and monitor profile. You can restore the backup after correcting the display configuration.
 
 ---
 
@@ -488,7 +494,7 @@ These can be convenient, but they are not the recommended default method because
 
 ### Alternative 3 — OpenKneeboard
 
-OpenKneeboard is an external kneeboard application.
+[OpenKneeboard](https://openkneeboard.com/features/dcs/) is an external kneeboard application.
 
 Advantages:
 
