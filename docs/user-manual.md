@@ -50,7 +50,7 @@ The normal profile is:
 C:\Users\<your name>\Saved Games\DCS
 ```
 
-An older installation may still use:
+If your DCS profile folder is named `DCS.openbeta`, use:
 
 ```text
 C:\Users\<your name>\Saved Games\DCS.openbeta
@@ -210,4 +210,4 @@ If SkyDefender was already uninstalled and DCS still tries to start it, remove t
 Saved Games\DCS\Scripts\Hooks\SkyDefenderAutostart.lua
 ```
 
-Use an older `DCS.openbeta` profile or your custom profile name when applicable. The uninstaller does not remove other DCS-side configuration files automatically.
+Use `DCS.openbeta` or your custom profile name when applicable. The uninstaller does not remove other DCS-side configuration files automatically.

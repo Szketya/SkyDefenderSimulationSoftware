@@ -163,7 +163,7 @@ Open this folder:
 C:\Users\<Your Windows User Name>\Saved Games\DCS\Config\
 ```
 
-An older DCS installation may still use this profile folder:
+If your DCS profile folder is named `DCS.openbeta`, use:
 
 ```txt
 C:\Users\<Your Windows User Name>\Saved Games\DCS.openbeta\Config\
@@ -448,7 +448,7 @@ If the DCS menu becomes unusable, exit DCS and make a backup copy of:
 C:\Users\<Your Windows User Name>\Saved Games\DCS\Config\options.lua
 ```
 
-An older DCS installation may use:
+If your DCS profile folder is named `DCS.openbeta`, the file is:
 
 ```txt
 C:\Users\<Your Windows User Name>\Saved Games\DCS.openbeta\Config\options.lua

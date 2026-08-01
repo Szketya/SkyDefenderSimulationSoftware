@@ -36,7 +36,7 @@ Existing installations download stable updates automatically and install them af
 2. In **COM PORT ASSIGNMENTS**, select **ADD NEW PORT**.
 3. Select the panel's COM port and the matching panel type.
 4. Wait for the row status to confirm the connection.
-5. In **DCS CONFIG**, select your DCS profile, normally `Saved Games\DCS`. Older installations may still use `Saved Games\DCS.openbeta`.
+5. In **DCS CONFIG**, select your DCS profile, normally `Saved Games\DCS`. If your profile folder is named `DCS.openbeta`, use that folder instead.
 6. If you selected an F-14 panel, also select the DCS World installation folder when it appears.
 7. Select **APPLY DCS CONFIG**.
 8. Start DCS World and test the panel in the correct aircraft.

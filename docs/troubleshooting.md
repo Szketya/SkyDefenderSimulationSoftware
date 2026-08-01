@@ -45,7 +45,7 @@ Select the DCS profile folder under Windows Saved Games. The normal profile is:
 C:\Users\<your name>\Saved Games\DCS
 ```
 
-An older installation may still use:
+If your DCS profile folder is named `DCS.openbeta`, use:
 
 ```text
 C:\Users\<your name>\Saved Games\DCS.openbeta
